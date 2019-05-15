@@ -1,0 +1,32 @@
+button {
+	position: fixed;
+	font: inherit;
+	width: 4%;
+	height: 10%;
+	overflow: hidden;
+	border: none;
+	background-color: black;
+	color: black;
+}
+#save, #delete { 
+	left: 0px;
+}
+#restart, #save {
+	top: 0px;
+}
+#suspend, #restart {
+	right: 0px;
+}
+#delete, #suspend {
+	bottom: 0px;
+}
+#counterArea {
+	position: fixed;
+	left: 4.5%;
+	bottom: 2%;
+	font-size: 0.8em;
+	color: #555;
+}
+.displayNone {
+	display: none;
+}

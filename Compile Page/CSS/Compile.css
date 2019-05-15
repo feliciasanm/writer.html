@@ -1,0 +1,68 @@
+*::selection {
+	background: #CCC;
+	color: #555;
+}
+*::-moz-selection {
+	background: #CCC;
+	color: #555;
+}
+*::-webkit-selection {
+	background: #CCC;
+	color: #555;
+}
+body {
+	background-color: black;
+	font-family: "Open Sans";
+	font-size: 24px;
+	color: white;
+}
+#wrapper {
+	margin: 4.65%;
+	width: 90.7%;
+	border: thick solid #BCBCBC;
+	background-color: #555;
+	padding: 1.75%;
+}
+button, #counterA {
+	margin: 20px 10px 20px 0px;
+	font-family: sans-serif;
+	padding: 10px;
+}
+button {
+	background-color: #333;
+	border: 2px dashed #AAA;
+}
+button:active {
+	background-color: black;
+	transition: all 10ms;
+	border-color: #A1A1A1;
+}
+#counterA, button {
+	color: white;
+}
+#inputA, #resultA {
+	width: 100%;
+	font: inherit;
+	color: inherit;
+	line-height: 1.25em;
+	padding: 2%;
+	border: 5px dashed #AAA;
+	background-color: #333;
+}
+#inputA {
+	height: 600px;
+	margin-bottom: 20px;
+}
+#resultA {
+	margin-top: 50px;
+	max-height: 600px;
+	border-color: #8C8C8C;
+}
+del {
+	text-decoration: line-through;
+}
+#controlWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

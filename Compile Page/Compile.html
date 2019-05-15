@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Compile Page</title>
+		<link rel="stylesheet" href="../Shared Resources/Font/Open Sans/Open Sans.css" />
+		<link rel="stylesheet" href="../Shared Resources/HTML5DoctorReset - modified.css" />
+		<link rel="icon" type="image/vnd.microsoft.icon" href="../favicon.ico">
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link rel="stylesheet" href="CSS/Compile.css" />
+	</head>
+	<body>
+		<main>
+			<div id="wrapper">
+				<textarea id="inputA"spellcheck="false"></textarea><br />
+				<div id="controlWrapper">
+					<button id="compileB">Compile</button>
+					<button id="clearB">Clear</button>
+					<button id="savePasteB">Save Current Text</button>
+					<span id="counterA" aria-live="polite">
+						<label for="wordCountDisplay">Words: </label>
+						<output for="inputA" id="wordCountDisplay"></output>
+					</span>
+				</div>
+				<hr />
+				<div id="resultA"contenteditable="true" spellcheck="false" aria-live="assertive"></div>
+			</div>
+		</main>
+		<script src="../Shared Resources/Countable-minified.js"></script>
+		<script src="Javascript/Compile.js"></script>
+	</body>
+</html>

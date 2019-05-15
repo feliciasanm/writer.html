@@ -1,0 +1,47 @@
+*::selection {
+	background: #CCC;
+	color: #555;
+}
+*::-moz-selection {
+	background: #CCC;
+	color: #555;
+}
+*::-webkit-selection {
+	background: #CCC;
+	color: #555;
+}
+body {
+	background-color: black;
+	font-family: "Open Sans";
+	font-size: 24px;
+}
+textarea {
+	font: inherit;
+	position: absolute;
+	color: white;
+	margin: 4.65%;
+	width: 90.7%;
+	background-color: #555;
+	border: 5px dashed #AAA;
+	padding: 1.75%;
+	line-height: 1.25em;
+}
+@media all and (max-device-width: 750px), all and (max-device-height: 600px) {
+	body {
+		font-size: 3.583vmin;
+		font-size: 3.583vm;
+	}
+	textarea {
+		padding: 4%;
+	}
+}
+@media screen and (min-device-width: 1919px), screen and (min-device-height: 1919px) {
+	body {
+		font-size: x-large;
+	}
+}
+@media screen and (min-device-width:751px) and (max-device-width:1919px), screen and (min-device-height:751px) and (max-device-height:1919px){
+	textarea {
+		padding: 24px;
+	}
+}
